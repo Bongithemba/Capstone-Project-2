@@ -538,21 +538,6 @@ footer > .col-1 > .icons {
     }
 
 
-    #section-3 .carousel-items .carousel {
-        background: var(--very-light-gray);
-        padding: 1.5rem;
-        margin: 20px;
-        display: flex;
-        flex-flow: column;
-        gap: 15px;
-    }
-
-    .hide-desktop {
-        display: block;
-        text-align: center;
-        margin: 0 auto;
-        transform: translateY(-60px);
-    }
 
     .section-4 {
         background: url(./images-20250326T051439Z-001/images/bg-simplify-section-mobile.svg) no-repeat;
@@ -581,7 +566,6 @@ footer > .col-1 > .icons {
         grid-column-gap: 50px;
         text-align: center;
         grid-row-gap: 50px;
-        /* border: 2px solid blue; */
         padding-left: 0px;
         margin-left: -10px;
     }
@@ -669,16 +653,13 @@ footer > .col-1 > .icons {
     padding-right: 0;
     }
     
-    #section-1 .container .col-left p {
+    #section-1 > .container > .col-left p {
     width: 100%;
     margin-left: 0px;
     padding-top: 0;
     padding-right: 0;
     }
-    
-    #section-2 {
-        border:none;
-    }
+
     
     #section-2 > .container {
     display: flex;
